@@ -1,7 +1,14 @@
 <template>
-  <Tutorial/>
+  <Home/>
 </template>
 
 <script>
-export default {}
+import Home from "~/components/Home";
+
+export default {
+  name: 'Homepage',
+  components: {
+    Home
+  }
+}
 </script>
